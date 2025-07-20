@@ -1,17 +1,18 @@
-
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
+
 /* header styles.................. */
-body{
+body {
     background-color: #F5F8FF;
     margin: 0;
     padding: 0;
 }
-.header{
+
+.header {
     background-image: url('./Assets/Hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,13 +21,15 @@ body{
     height: 700px;
     align-items: center;
 }
+
 .nevbar {
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
     align-items: center;
 }
-.h-des{
+
+.h-des {
     text-align: center;
     margin: 150px 260px;
     gap: 30px;
@@ -35,14 +38,16 @@ body{
     color: #252432;
 }
 
-.logo{
+.logo {
     font-size: 35px;
     font-weight: bold;
 }
-.blue{
+
+.blue {
     color: #4E47FF;
 }
-.btn-1{
+
+.btn-1 {
     width: 110px;
     height: 40px;
     border-radius: 10px;
@@ -52,7 +57,8 @@ body{
     font-weight: bold;
 
 }
-.btn-1:hover{
+
+.btn-1:hover {
     background-color: #93bbf7;
     color: rgb(225, 219, 219);
     border: none;
@@ -61,13 +67,15 @@ body{
     cursor: pointer;
     transform: scale(1.2);
 }
-.btn-2{
-    gap: 17px ;
+
+.btn-2 {
+    gap: 17px;
     margin-top: 35px;
     height: 30px;
 }
+
 /*  action section style..................... */
-.action{
+.action {
     display: flex;
     border: none;
     justify-content: space-between;
@@ -75,24 +83,28 @@ body{
     padding: 140px 115px;
     align-items: inline;
 }
-.des-1{
+
+.des-1 {
     gap: 22px;
     align-items: left;
     justify-content: center;
     margin-right: 220px;
     margin-top: 20px;
 }
-.action-title{
+
+.action-title {
     font-weight: bold;
     font-size: 44px;
     margin-bottom: 20px;
 }
-.action-p{
-    font-size: 25px ;
+
+.action-p {
+    font-size: 25px;
     color: #252432;
     margin-bottom: 23px;
 }
-.sec-btn-1{
+
+.sec-btn-1 {
     font-size: 12px;
     font-weight: bold;
     width: 160px;
@@ -100,11 +112,13 @@ body{
     margin-top: 10px;
     border-radius: 12px;
 }
-.image img{
+
+.image img {
     border-radius: 48px;
 }
+
 /* productive user styles........... */
-.pus-sec{
+.pus-sec {
     background-color: cyan;
     text-align: center;
     border-radius: 24px;
@@ -112,99 +126,286 @@ body{
     padding: 80px 50px;
     padding-top: 40px;
 }
-.pus-sub{
+
+.pus-sub {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 70px;
     margin-top: 20px;
-    flex : 1 1 300px;
+    flex: 1 1 300px;
     box-sizing: border-box;
 }
-.pus-sub div{
+
+.pus-sub div {
     text-align: center;
-    padding:  0 60px;
+    padding: 0 60px;
     margin: 0;
 }
-.pus-sec h3{
+
+.pus-sec h3 {
     font-size: 38px;
     color: #252432;
     margin-bottom: 18px;
 }
-.pt{
+
+.pt {
     font-weight: bold;
     font-size: 68px;
     color: #4E47FF;
     margin-top: 20px;
     margin-bottom: 5px;
 }
-.pst{
+
+.pst {
     font-size: 16px;
     margin-top: 5px;
     color: #394246;
 }
+
 /* user feedback section............... */
-.feedback{
+.feedback {
     justify-content: center;
     align-items: center;
     padding: 18px 0;
 }
-.feedback h2{
+
+.feedback h2 {
     text-align: center;
     margin-bottom: 30px;
 
 }
-.review-con{
+
+.review-con {
     display: flex;
     gap: 20px;
     padding: 0 10px;
 }
-.card{
+
+.card {
     background-color: #F2EDED;
     padding: 20px;
     margin: 20px;
     border-radius: 14px;
     text-align: left;
-    flex : 1 1 300px;
+    flex: 1 1 300px;
     box-sizing: border-box;
 }
-.card h3{
+
+.card h3 {
     text-align: left;
     margin-top: 32px;
     margin-bottom: 11px;
 }
-.stars{
+
+.stars {
     margin: 0;
     padding: 0;
     display: flex;
     gap: 5px;
     margin-bottom: 20px;
 }
-.card p{
+
+.card p {
     font-size: 20px;
     color: #262730;
     text-align: left;
 }
-.avater{
+
+.avater {
     display: flex;
     gap: 12px;
     margin-top: 18px;
     align-items: center;
 }
-.avater p{
+
+.avater p {
     margin: 0;
     font-size: 1em;
     text-align: left;
 }
-.avater-text{
+
+.avater-text {
     padding: 5px;
 }
-.avater h6{
+
+.avater h6 {
     margin: 0;
     color: #6b75e6;
     font-size: 1.2em;
     text-align: left;
 }
-.avater img{
+
+.avater img {
     border-radius: 45%;
+}
+
+/* ready to focus................ */
+.rfb {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.rfb h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.rfb p {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.rfb button {
+    width: 195px;
+    height: 48px;
+    background-color: cornflowerblue;
+    gap: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.rfb img {
+    border-radius: 48px;
+    padding: 30px;
+    margin-top: 0;
+}
+
+/* lgt & form styles.............. */
+.lgt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    margin: 150px 90px;
+}
+
+.lgt-text h1 {
+    font-size: 95px;
+    margin: 0;
+}
+
+.lgt-text {
+    text-align: left;
+    padding-right: 115px;
+}
+
+.details {
+    flex: 1;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 500px;
+}
+
+.details form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt label {
+    font-size: 20px;
+    color: #7878f8;
+    margin-bottom: 8px;
+    text-align: left;
+    font-weight: 500px;
+}
+
+.details input[type="email"],
+.details input[type="text"],
+.details textarea {
+    border: 2.5px solid rgb(129, 178, 252);
+    border-radius: 6px;
+    padding: 15px 20px;
+    background-color: rgb(225, 239, 243);
+    font-size: 1em;
+    color: #3b0404;
+}
+
+.btn-form {
+    background-color: #4E47FF;
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-form:hover {
+    background-color: #28858b;
+    color: rgb(171, 182, 248);
+    border: none;
+    transform: scale(1.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    color: black;
+    cursor: pointer;
+}
+
+/* footer styles................... */
+footer {
+    height: auto;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 110px 20px;
+}
+
+.footers {
+    display: flex;
+    flex-direction: column;
+    align-items: center gap: 30px;
+    margin: 0 auto;
+    padding: 100px 330px;
+}
+
+footer h2 {
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+footer p {
+    font-size: 20px;
+    color: #8987A1;
+    line-height: 1.6;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.ft-links {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+
+footer a:hover {
+    background-color: #788897;
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(40, 150, 158);
+    border: none;
+    transform: scale(1.1);
+    color: black;
 }
