@@ -143,3 +143,68 @@ body{
     margin-top: 5px;
     color: #394246;
 }
+/* user feedback section............... */
+.feedback{
+    justify-content: center;
+    align-items: center;
+    padding: 18px 0;
+}
+.feedback h2{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.review-con{
+    display: flex;
+    gap: 20px;
+    padding: 0 10px;
+}
+.card{
+    background-color: #F2EDED;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 14px;
+    text-align: left;
+    flex : 1 1 300px;
+    box-sizing: border-box;
+}
+.card h3{
+    text-align: left;
+    margin-top: 32px;
+    margin-bottom: 11px;
+}
+.stars{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.card p{
+    font-size: 20px;
+    color: #262730;
+    text-align: left;
+}
+.avater{
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+    align-items: center;
+}
+.avater p{
+    margin: 0;
+    font-size: 1em;
+    text-align: left;
+}
+.avater-text{
+    padding: 5px;
+}
+.avater h6{
+    margin: 0;
+    color: #6b75e6;
+    font-size: 1.2em;
+    text-align: left;
+}
+.avater img{
+    border-radius: 45%;
+}
